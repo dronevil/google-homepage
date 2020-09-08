@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: rgb(56, 56, 56);
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+#Navbar_Left {
+    float: left;
+}
+
+#Navbar_Right {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+li {
+    display: flex;
+    padding: 7px;
+}
+
+.Logo {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.Search {
+    top: 43%;
+    left: 43%;
+    margin-top: -50px;
+    margin-left: -100px;
+    width: 28%;
+    position: absolute;
+}

@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: arial, sans-serif;
     font-size: 13px;
+    text-align: center;
 }
 
 a:link {
@@ -17,11 +18,11 @@ a:hover {
     background-color: transparent;
 }
 
-#Navbar_Left {
+#navBarLeft {
     float: left;
 }
 
-#Navbar_Right {
+#navBarRight {
     float: right;
 }
 
@@ -38,19 +39,23 @@ li {
     padding: 7px;
 }
 
-.Logo {
-    position: fixed;
-    top: 30%;
-    left: 50%;
+#logo {
+    position: absolute;
+    top: 40%;
+    left: 48%;
     margin-top: -50px;
     margin-left: -100px;
 }
 
-.Search {
-    top: 43%;
-    left: 43%;
-    margin-top: -50px;
-    margin-left: -100px;
-    width: 28%;
+#searchBarWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
+    width: 15%;
 }

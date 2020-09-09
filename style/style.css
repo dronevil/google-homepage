@@ -41,6 +41,53 @@ li {
 
 #logo {
     position: absolute;
+    top: 25%;
+    left: 48%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.searchButton {
+    width: 90px;
+    height: 36px;
+    border: 1px solid #d8d8d8;
+    background: #eeeeee;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: -100px;
+}
+
+/* Need to work on getting the logo, search bar, and buttons centered together.
+
+#logo {
+    position: absolute;
     top: 40%;
     left: 48%;
     margin-top: -50px;
@@ -59,3 +106,4 @@ li {
     position: absolute;
     width: 15%;
 }
+*/

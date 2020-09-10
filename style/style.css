@@ -1,7 +1,5 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 13px;
     text-align: center;
 }
@@ -13,42 +11,45 @@ a:link {
 }
 
 a:hover {
-    color: rgb(56, 56, 56);
+    color: #565656;
     text-decoration: underline;
     background-color: transparent;
 }
 
 #navBarLeft {
     float: left;
+    margin-left: 8px;
+
 }
 
 #navBarRight {
     float: right;
+    margin-right: 8px;
+
 }
 
 ul {
     list-style-type: none;
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     overflow: hidden;
     display: flex;
 }
 
 li {
-    display: flex;
-    padding: 7px;
+    padding: 10px;
 }
 
 #logo {
     position: absolute;
-    top: 25%;
+    top: 27%;
     left: 48%;
     margin-top: -50px;
     margin-left: -100px;
 }
 
 /*Resize the wrap to see the search bar change!*/
-.wrap {
+#wrap {
     width: 30%;
     position: absolute;
     top: 40%;
@@ -56,7 +57,7 @@ li {
     transform: translate(-50%, -50%);
 }
 
-.search {
+#search {
     width: 100%;
     position: relative;
     display: flex;
@@ -65,45 +66,59 @@ li {
 .searchBar {
     width: 100%;
     border: 1px solid #d8d8d8;
-    padding: 5px;
+    padding: 6px;
     height: 30px;
     border-radius: 40px 40px 40px 40px;
 }
 
-/* Buttons*/
-.buttons {
-    display: inline-flex;
+#buttons {
+
+    text-align: center;
+    position: relative;
+    top: 25px;
+
 }
-#searchButton1, #searchButton2 {
-    width: 125px;
-    height: 35px;
-    border: 1px solid #d8d8d8;
-    background: #eeeeee;
-    color: rgb(54, 54, 54);
-    cursor: pointer;
+
+.searchButton {
+    border: solid 1px;
+    margin: 0 10px;
     font-size: 14px;
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border-color: #f2f2f2;
+    border-radius: 4px;
 }
 
-/* Need to work on getting the logo, search bar, and buttons centered together.
 
-#logo {
-    position: absolute;
-    top: 40%;
-    left: 48%;
-    margin-top: -50px;
-    margin-left: -100px;
-}
-
-#searchBarWrap {
+footer {
     display: flex;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border: solid 1px;
+    border-color: #f2f2f2;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    line-height: 25px;
 }
 
-.searchBar {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 15%;
+#leftFooter {
+    padding: 10px 15px;
 }
-*/
+
+.leftFootLink {
+    margin-right: 15px;
+    color: #5F6368;
+}
+
+#rightFooter {
+    padding: 10px 15px;
+}
+
+.rightFootLink {
+    margin: 0 10px;
+    color: #5F6368;
+}

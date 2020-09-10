@@ -4,48 +4,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Google Homepage recreation for Odin Project">
-    <meta name="viewport" content="width=device-width" , initial-scale="1">
     <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
 <!-- Navbar Section -->
-<header>
-    <nav id="navBarLeft">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Store</a></li>
-        </ul>
-    </nav>
-    <nav id="navBarRight">
-        <ul>
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-        </ul>
-    </nav>
-</header>
-<!-- End Navbar Section -->
 
 <body>
-    <div id="logo">
-        <img src="images/google_logo.png" alt="google.com">
+    <header>
+        <nav id="navBar">
+            <div id="navBarLeft">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+            </div>
+            <div id="navBarRight">
+                <ul>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- End Navbar Section -->
+    <img id="logo" src="images/google_logo.png" alt="google.com">
+    <br>
+    <div id="wrap">
+        <input type="text" class="searchBar" id="myText">
+        <div id="buttons">
+            <button type="submit" class="searchButton">Google Search</button>
+            <button type="submit" class="searchButton">I'm Feeling Lucky</button>
+        </div>
     </div>
-
-    <div class="wrap">
-        <div class="search">
-            <input type="text" class="searchBar" id="myText">
-    </div>
-    <div class="buttons">
-        <button type="submit" id="searchButton1">Google Search
-        </button>
-        <button type="submit" id="searchButton2">I'm Feeling Lucky
-        </button>
-    </div>
+    <footer>
+        <div id="leftFooter">
+            <a class="leftFootLink" href="#">Advertising</a>
+            <a class="leftFootLink" href="#">Business</a>
+            <a class="leftFootLink" href="#">How Search Works</a>
+        </div>
+        <div id="rightFooter">
+            <a class="leftFootLink" href="#">Privacy</a>
+            <a class="leftFootLink" href="#">Terms</a>
+            <a class="leftFootLink" href="#">Settings</a>
+        </div>
+    </footer>
 </body>
 
 
-<footer>
 
-</footer>
 
 </html>
 <!-- Logo Section 
